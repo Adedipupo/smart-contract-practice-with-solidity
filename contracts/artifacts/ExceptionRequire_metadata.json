@@ -16,9 +16,9 @@
 				"name": "balanceReceived",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -39,9 +39,9 @@
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "_amount",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"name": "withdrawMoney",
@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"contracts/ExmpleExceptionRequire.sol": {
-			"keccak256": "0xb37623082278e88ad56b9b6b91858c7e44371b63b7ec4800ea649ee964641e40",
+			"keccak256": "0xb2a7b0759cfaba6c687c98006bac974c623268135a648cf15ec9842bbb670671",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6d9f30681fdccd3d0082ba1c8768527581158996a21daf5634a4b11402f8b2d9",
-				"dweb:/ipfs/QmacSGdHHrV2oYHE3LELK3U3UKapqoXpAFBTrJWFb2SVjk"
+				"bzz-raw://5dee4522ec5b2262320ea8919683089f70440a844d568fe4e3cf3f568a914e64",
+				"dweb:/ipfs/QmSumUv3CGGUp6HTHmtJndgc2MyRYLSr4aEg4vtvZiMvii"
 			]
 		}
 	},
