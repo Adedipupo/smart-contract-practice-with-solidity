@@ -6,25 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "lastFunctionCalled",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "lastValueSent",
+				"name": "addressBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,8 +25,11 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
 				"stateMutability": "payable",
-				"type": "receive"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -53,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SampleFallbackReceive.sol": "ExampleFallback"
+			"contracts/ExampleContractCall.sol": "ContractOne"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -67,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SampleFallbackReceive.sol": {
-			"keccak256": "0xe09881306735c7d7c0ae84a675344261ed94fb346090114bb2df72552806de67",
+		"contracts/ExampleContractCall.sol": {
+			"keccak256": "0xb09e7952f6e8b14c7ed2f8aff8a35f2069059d62981b423d46416a3d42ebc168",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c90152d29cf694ec27afd5e5c59133da8cffe2f7fd41a51e807b57554aa6277",
-				"dweb:/ipfs/QmexdFn1MKH3p1n1RJ1FTrzLazQkuE7stcJgAT3zsz5qjJ"
+				"bzz-raw://b6fd123e728e25b97453c4fb0968f7797cbcda7b3d579b93a35f554e01127f67",
+				"dweb:/ipfs/Qmf7SFFRz8FRBDxEwgTyvfSequSo8ajB7B5T72gRSghHJN"
 			]
 		}
 	},
